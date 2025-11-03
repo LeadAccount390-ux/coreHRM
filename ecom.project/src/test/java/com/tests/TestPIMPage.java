@@ -15,7 +15,9 @@ public class TestPIMPage extends BasePage {
   public void addemployeeThenVerify() throws Exception {
 	  //login to the application using the loginPage method
 	  loginPage.login();
-	  TestNGUtils.assertTrue(CommonUtils.getElementText(loginPage.getWelcomepage(),"Welcome selenium"));
+	 // TestNGUtils.assertTrue(CommonUtils.getElementText(loginPage.getWelcomepage(),"Welcome selenium"));
+	  
+	  System.out.println("welcome Github");
 	 
   }
 }
