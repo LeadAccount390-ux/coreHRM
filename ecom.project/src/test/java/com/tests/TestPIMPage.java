@@ -16,6 +16,8 @@ public class TestPIMPage extends BasePage {
 	  //login to the application using the loginPage method
 	  loginPage.login();
 	  TestNGUtils.assertTrue(CommonUtils.getElementText(loginPage.getWelcomepage(),"Welcome selenium"));
+	  
+	  System.out.println("welcome Hithub");
 	 
   }
 }
